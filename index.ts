@@ -60,7 +60,7 @@ interface ATest {
 
     gender: 'male' | 'female',
     name: {
-        title: ? string,
+        title?: string,
         first: string,
         last: string,
     },
